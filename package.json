@@ -6,8 +6,8 @@
   "scripts": {
     "dev": "prisma db push && nodemon ./src/index",
     "start": "prisma db push && node ./src/index",
-    "mongo-start": "docker pull hello-world:latest",
-    "mongo-stop": "docker rm -f mongo-dev"
+    "mongo-start": "",
+    "mongo-stop": ""
   },
   "dependencies": {
     "@prisma/client": "^3.14.0",
